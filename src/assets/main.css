@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); 
+  color: #333;
+}
+
+button {
+  background: linear-gradient(135deg, #667eea, #764ba2); /* Roxo/Azul elegante */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #5563c1, #5a3b79); /* Tom mais escuro no hover */
+  transform: scale(1.05); /* Efeito sutil de aumento */
+}
+
+button:active {
+  transform: scale(0.95); /* Efeito de clique */
+}
+
+main{
+  background: #fff5e1; /* Bege suave e elegante */
+  color: #333; /* Texto escuro para boa legibilidade */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para efeito moderno */
+  max-width: 1200px;
+  margin: 20px auto;
+  height: 100vh;
+}
